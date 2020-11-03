@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">currency converter</string>
+
+    <string-array name="spinnerTo">
+        <item>CAD</item>
+        <item>HKD</item>
+        <item>ISK</item>
+        <item>PHP</item>
+        <item>DKK</item>
+    </string-array>
+
+    <string-array name="spinnerFrom">
+        <item>CAD</item>
+        <item>HKD</item>
+        <item>ISK</item>
+        <item>PHP</item>
+        <item>DKK</item>
+    </string-array>
+</resources>
