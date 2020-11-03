@@ -8,8 +8,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="314dp"
-        android:layout_height="141dp"
+        android:layout_width="316dp"
+        android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
@@ -27,15 +27,18 @@
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
 
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:fontFamily="@font/autour_one"
                     android:text="From"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
@@ -43,13 +46,17 @@
                 <Spinner
                     android:id="@+id/spinnerFrom"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp" />
+                    android:layout_height="35dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:fontFamily="@font/autour_one"
                     android:text="To"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
@@ -57,7 +64,9 @@
                 <Spinner
                     android:id="@+id/spinnerTo"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp" />
+                    android:layout_height="35dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -95,10 +104,10 @@
         android:id="@+id/tvAmountConverted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-smallcaps"
+        android:fontFamily="@font/autour_one"
         android:text="100,000.00"
         android:textColor="@android:color/background_dark"
-        android:textSize="35sp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
